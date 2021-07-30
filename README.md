@@ -62,3 +62,5 @@ func main() {
   (https://shields.io/badge/Go%40master-v1.16-blue)
   
   ![GitHub all releases](https://img.shields.io/github/downloads/FlipTheDream/goinsapi/total)
+  ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/FlipTheDream/goinsapi)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/FlipTheDream/goinsapi)
