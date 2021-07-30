@@ -6,8 +6,8 @@ up to pull from additional REST/API end points.
 
 TODO:  
 [X] - Pull data from https://api.ethplorer.io/ to grap coin balances  
-[ ] - Create a service that utilized goapi and refreshes prices and gets balances on demand  
-[ ] - Implement a API server to return portfolio balance based on POST addx  
+[X] - Create a service that utilized goapi and refreshes prices and gets balances on demand  
+[X] - Implement a API server to return portfolio balance based on POST addx  
 [ ] - Create a containerized microservice  
 [ ] - Setup a database backend   
 
