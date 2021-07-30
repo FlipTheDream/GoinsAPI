@@ -60,3 +60,5 @@ func main() {
 
   [GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)]  
   (https://shields.io/badge/Go%40master-v1.16-blue)
+  
+  ![GitHub all releases](https://img.shields.io/github/downloads/FlipTheDream/goinsapi/total)
