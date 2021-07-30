@@ -1,4 +1,6 @@
-# goapi module
+# Go Coin API
+
+## goinsapi modue
 
 This module provides a basic api module for for gathering coinbase
 information. The initial idea is to add coinbase support and build it
