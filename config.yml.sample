@@ -1,0 +1,5 @@
+# Configuration for Coinmarketcap
+api:
+  url: "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"
+  tokenheader: "X-CMC_PRO_API_KEY"
+  token: "YOUR-API-TOKEN-HERE"
