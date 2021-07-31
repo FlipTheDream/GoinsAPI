@@ -62,5 +62,7 @@ func main() {
 
   [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   ![GitHub all releases](https://img.shields.io/github/downloads/FlipTheDream/goinsapi/total)
+  ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/FlipTheDream/goinsapi?include_prereleases)
   ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/FlipTheDream/goinsapi)
   ![GitHub last commit](https://img.shields.io/github/last-commit/FlipTheDream/goinsapi)
+  ![GitHub issues](https://img.shields.io/github/issues/FlipTheDream/goinsapi)
