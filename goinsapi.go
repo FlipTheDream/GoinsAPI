@@ -148,7 +148,8 @@ type apiExplorer struct {
 }
 
 // tokenInfo type contains the apiexploter coin information that
-// provides advanced details beyond the basic CMC information.
+// provides advanced details beyond the basic CMC information.\
+// TODO: Refactor this scruct to include the getters into the struct
 type tokenInfo struct {
 	Address           string  `json:"address"`
 	Name              string  `json:"name"`
