@@ -11,7 +11,8 @@ TODO:
 [X] - Create a service that utilized goapi and refreshes prices and gets balances on demand  
 [X] - Implement a API server to return portfolio balance based on POST addx  
 [ ] - Create a containerized microservice  
-[ ] - Setup a database backend   
+[ ] - Setup a database backend  
+[ ] - Refactor the Token struct to include the getters into the struct 
 
 It utilizes a yaml config file that constains the following:
 
