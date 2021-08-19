@@ -12,7 +12,8 @@ TODO:
 [X] - Implement a API server to return portfolio balance based on POST addx  
 [ ] - Create a containerized microservice  
 [ ] - Setup a database backend  
-[ ] - Refactor the Token struct to include the getters into the struct 
+[X] - Refactor the Token struct to include the getters into the struct ( Not going to
+      add redundant functions for each function. Marking as done.)
 
 It utilizes a yaml config file that constains the following:
 
