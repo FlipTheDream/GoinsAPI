@@ -498,7 +498,7 @@ func GetTokenImageUrl(sym string) string {
 // go goapi.RefreshPrice()
 func RefreshPrice() {
 	ticker := time.NewTicker(5 * time.Minute)
-	for _ = range ticker.C {
+	for range ticker.C {
 		PullCoinData(configData)
 	}
 }
