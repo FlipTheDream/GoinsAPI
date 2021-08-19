@@ -1,4 +1,4 @@
-module git.local.jnet/wendell/goapi
+module github.com/FlipTheDream/goinsapi
 
 go 1.16
 
