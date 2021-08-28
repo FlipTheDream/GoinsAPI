@@ -68,3 +68,4 @@ func main() {
   ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/FlipTheDream/goinsapi)
   ![GitHub last commit](https://img.shields.io/github/last-commit/FlipTheDream/goinsapi)
   ![GitHub issues](https://img.shields.io/github/issues/FlipTheDream/goinsapi)
+  [![Go Report Card](https://goreportcard.com/badge/github.com/flipthedream/goinsapi)](https://goreportcard.com/report/github.com/flipthedream/goinsapi)
