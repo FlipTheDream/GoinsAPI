@@ -23,7 +23,7 @@ import (
 //  Type Definitions
 // ####################################################
 
-// coinList structure defines the stucture of the CMC APPI
+// coinList structure defines the structure of the CMC APPI
 // The structure captures all coins and assocated statistics
 // the structure is used when grabbing data from CMC
 // https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest
