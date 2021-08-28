@@ -214,6 +214,8 @@ var addressBalance float32
 // ####################################################
 //  Exported Package Variables
 // ####################################################
+
+// ActiveTokenList contains the tokens found under a provided ETH address
 var ActiveTokenList []string
 
 // ####################################################
@@ -335,8 +337,7 @@ func updatePriceMap() {
 //  Exported Package Functions
 // ####################################################
 
-// pullCoinData accepts a basic API url/token config structure
-// The coinList structure will be used to populate the cList variable
+// PullCoinData accepts a basic API url/token config structure
 func PullCoinData(yamlConfig Config) {
 
 	client := &http.Client{}
@@ -373,23 +374,23 @@ func PullCoinData(yamlConfig Config) {
 //  External Getter Functions Block
 // ####################################################
 
-// Returns the price of a coin given its ticket symbol
+// GetPrice returns the price of a coin given its ticket symbol
 func GetPrice(sym string) float64 {
 	return coinPrices[sym].Price
 
 }
 
-// Returns the 1 hour change of a coin given its ticker symbol
+// GetHourChange returns the 1 hour change of a coin given its ticker symbol
 func GetHourChange(sym string) float64 {
 	return coinPrices[sym].PercentChange1H
 }
 
-// Returns the 24 hour change of a coin given its ticker symbol
+// Get24HourChange returns the 24 hour change of a coin given its ticker symbol
 func Get24HourChange(sym string) float64 {
 	return coinPrices[sym].PercentChange24H
 }
 
-// getConfigData Reads the API configuration from a config yaml file
+// GetConfigData Reads the API configuration from a config yaml file
 func GetConfigData() Config {
 	var getConfig Config
 	f, err := os.Open("config.yml")
@@ -407,8 +408,7 @@ func GetConfigData() Config {
 
 }
 
-// Call to get all ERC-20 coins assocated with a specific ERC-20 address
-// provided in the config file.
+// GetAddressData is a call to get all ERC-20 coins assocated with a specific ERC-20 address provided in the config file.
 func GetAddressData(addx string) {
 
 	if len(addx) < 20 || len(addx) > 42 {
@@ -495,8 +495,10 @@ func GetTokenImageUrl(sym string) string {
 }
 
 // Price data refresh ticker
-// This sould be called in the main function similar to the following
+// This should be called in the main function similar to the following
 // go goapi.RefreshPrice()
+
+// RefreshPrice is used to refresh token prices in the background
 func RefreshPrice() {
 	ticker := time.NewTicker(5 * time.Minute)
 	for range ticker.C {
