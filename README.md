@@ -14,6 +14,7 @@ TODO:
 [ ] - Setup a database backend  
 [X] - Refactor the Token struct to include the getters into the struct ( Not going to
       add redundant functions for each function. Marking as done.)
+[ ] - Update preceision by utilizing a decimal library such as https://github.com/shopspring/decimal.
 
 It utilizes a yaml config file that constains the following:
 
